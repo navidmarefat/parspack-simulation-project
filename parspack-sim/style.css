@@ -1,0 +1,348 @@
+@font-face {
+    font-family:Byekan ;
+    src: url(font/Yekan.ttf);
+}
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: Byekan , tahoma , Arial;
+}
+ .container-fluid{
+    width: 100%;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-top{
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right{
+    display: flex;
+}
+.nav-menu{
+    list-style-type: none;
+     display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.menu-item{
+    padding: 10px 20px;
+}
+
+.menu-item a{
+    color: #999;
+    text-decoration: none;
+}
+.menu-item a:hover{
+    color: #6b6b6b;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left .sign{
+    margin-left: 30px;
+    color: #0e99e8;
+    text-decoration: none;
+}
+.left .sign:hover{
+    color: #0b7ec0;
+}
+.left .login{
+    text-decoration: none;
+    color: white;
+    background-color: #0e99e8;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.left .login:hover{
+    background-color: #0b7ec0;
+
+}
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+}
+.header-bottom-right{
+    width: 40%;
+    justify-content: center;
+}
+.heading{
+    color: #0e99e8;
+    margin-bottom: 30px;
+}
+.info{
+    width: 300px;
+    text-align: justify;
+    color: #999;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.header-bottom-right a{
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(255, 250, 241);
+    background-color: #0e99e8;
+    margin-right: 30px;
+    padding: 15px 30px;
+    padding-left: 45px;
+    border-radius: 30px;
+    position: relative;
+}
+.header-bottom-right a:hover{
+    background-color: #0b7ec0;
+
+}
+.header-bottom-right a i{
+    position: absolute;
+    top: 20px;
+    z-index: 0;
+    padding-right: 10px;
+}
+.header-bottom-left{
+    padding-right: 40px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding:80px 0 ;
+}
+.container-fluid-khadamat{
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#87d3ff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.khadamat-title{
+    color:#0e99e8;
+}
+.khadamat-desc{
+    color: #999;
+    width: 100%;
+    font-size: 18px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.khadamat-item{
+    box-shadow: none;
+    transition: box-shadow 1s;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 0 20px 20px 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.khadamat-item:hover{
+    box-shadow: 0 0 10px 8px rgb(156, 156, 156);
+}
+.khadamat-item img{
+    max-width: 50%;
+}
+.khadamat-title{
+    color: #0e99e8;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+.khadamat-info{
+    text-align: justify;
+    font-size: 18px;
+    color: #999;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.more{
+    text-decoration: none;
+    color: rgb(255, 250, 241);
+    background-color: #0e99e8;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+.more:hover{
+    background-color: #0b7ec0;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.khadamat-item{
+    box-shadow: none;
+    transition: box-shadow 1s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px 25px;
+}
+.khadamat-item:hover{
+    box-shadow: 0 0 10px 8px rgb(156, 156, 156);
+}
+.khadamat-item img{
+    max-width: 50%;
+}
+.khadamat-title{
+    color: #0b7ec0;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.khadamat-info{
+    color: #999;
+    text-align: justify;
+    margin-top:20px ;
+    font-size: 18px;
+}
+
+.consulting{
+    display: flex;
+    justify-content: center;
+}
+ .consulting a{
+    display: inherit;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 250, 241);
+    background-color:#0e99e8;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.consulting i{
+    font-size: 20px;
+    padding-right: 20px;
+
+}
+.consulting a:hover{
+    background-color: #0b7ec0;
+}
+.row{
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+}
+.row .right{
+    width: 50%;
+    padding-right: 50px;
+}
+.row .right img{
+    max-width: 70%;
+}
+.row .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.row .left-title{
+    color:#0b7ec0;
+    margin-bottom: 30px;
+}
+.row .left-info{
+    color:#9b9b9b;
+
+    text-align: justify;
+    font-size: 18px;
+    margin: 0 0 50px 0;
+}
+.begin{
+    text-decoration: none;
+    color: rgb(255, 250, 241);
+    background-color: #0e99e8;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 0 0 0 30px;
+    font-size: 17px;
+    position: relative;
+}
+.begin:hover{
+    background-color: #0b7ec0;
+}
+.begin i{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+.moshaver{
+    color: #999;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.moshaver:hover{
+    color: #6b6b6b;
+}
+.row:nth-child(even){
+    flex-direction: row-reverse;
+}
+.left-row1{
+    width: 80%;
+}
+.left-row2{
+    display: flex;
+}
+.footer{
+    text-align: center;
+}
+hr{
+    color: #999;
+}
+.footer img{
+    max-width: 5%;
+    padding-top: 60px;
+}
+
+.socials a{
+    text-decoration: none;
+    color:#999;
+}
+.socials a:hover{
+    color: #6b6b6b;
+}
+.socials i{
+    padding: 50px 0 0 15px;
+    font-size: 25px;
+}
+.footer p{
+    font-size: 20px;
+    color: #999;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
